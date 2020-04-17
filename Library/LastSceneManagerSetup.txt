@@ -1,7 +1,7 @@
 sceneSetups:
-- path: Assets/RALJyRacing.unity
+- path: Assets/Scenes/RALJyRacing.unity
   isLoaded: 1
   isActive: 0
-- path: Assets/StartQuitMenu.unity
+- path: Assets/Scenes/StartQuitMenu.unity
   isLoaded: 1
   isActive: 1
