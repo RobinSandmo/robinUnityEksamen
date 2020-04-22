@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2FC4193A-5209-0D3B-D4A4-5F0378B37541}</ProjectGuid>
+    <ProjectGuid>{2160168D-0620-9690-5EE9-037C546C6109}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,53 +53,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\SettingsUtils\SettingsData.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledBanner.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledCategory.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledInteractive.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledMessage.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledPopupArray.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledPopupLayers.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledRangeOptions.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledSpace.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledInspector\StyledTexturePreview.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledMono\StyledMonoBehaviour.cs" />
+     <Compile Include="Assets\EnvironmentAssets\Skybox\Utils\Scripts\StyledMono\StyledMonoHideScriptField.cs" />
      <Compile Include="Assets\Scripts\Audience.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\SettingsUtils\SettingsData.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledBanner.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledCategory.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledInteractive.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledMessage.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledPopupArray.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledPopupLayers.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledRangeOptions.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledSpace.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledInspector\StyledTexturePreview.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledMono\StyledMonoBehaviour.cs" />
-     <Compile Include="Assets\Skybox\Utils\Scripts\StyledMono\StyledMonoHideScriptField.cs" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\Skybox\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <Compile Include="Assets\Scripts\RespawnDetectorScript.cs" />
+     <None Include="Assets\EnvironmentAssets\Skybox\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/robinsandmo/Documents/GitHub/robinSandmo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/robinsandmo/Documents/GitHub/robinSandmo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/robinsandmo/Documents/GitHub/robinSandmo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/robinsandmo/Documents/GitHub/robinSandmo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>/Users/robinsandmo/Documents/GitHub/robinSandmo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -306,13 +301,13 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>/Users/robinsandmo/Documents/GitHub/robinSandmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>/Users/robinsandmo/Documents/GitHub/robinSandmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>/Users/robinsandmo/Documents/GitHub/robinSandmo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>/Users/robinsandmo/Documents/GitHub/Unity-Eksamen/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -662,7 +657,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{C234DBBF-BAF0-407E-52E2-9F419BD0CD34}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{32915386-C277-EDD8-FBEC-BDF059B59FBC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
